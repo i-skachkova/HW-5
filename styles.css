@@ -1,0 +1,47 @@
+
+.menu-box{
+    width: 300px;
+    height: 510px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    overflow: hidden;
+    color: white;
+}
+h2{
+    margin-top: 300px;
+    background-color: gray;
+    transform: rotate(90deg);
+    width: 500px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: fixed;
+    left: -230px;
+    top: -70px;
+    
+}
+ul{
+    background-color: gray;
+    width: 300px;
+    height: 510px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    transform: translatex(100%);
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: '🔸';
+}
+li:hover{
+    color: rgb(247, 247, 60);
+}
+h2:hover{
+    color: red;
+}
+.menu-box:hover ul{
+    transform: translatex(0);
+}
